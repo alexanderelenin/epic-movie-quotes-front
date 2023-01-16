@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Helvetica";
+    src: local("Helvetica"),
+      url(@/fonts/Helvetica_Neue_LT_65_Medium.ttf) format("truetype");
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Neue";
+    src: local("Neue"),
+      url(@/fonts/Helvetica_Neue_LT_GEO_45_Light.ttf) format("truetype");
+  }
+}
